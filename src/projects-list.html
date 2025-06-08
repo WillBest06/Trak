@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects list</title>
+    <link href="./output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <script src="index.js" defer></script>
+  </head>
+
+  <body class="relative flex flex-col min-h-screen h-dvh w-full bg-gray-600">
+    <input
+      class="hover:outline hover:outline-white"
+      type="text"
+      name=""
+      id=""
+    />
+
+    <nav class="bg-gray-600 border-b border-b-gray-400 flex items-center h-16">
+      <button
+        class="bg-gray-600 text-white p-4 cursor-pointer text-3xl lg:hidden h-full"
+        id="toggle-side-menu"
+      >
+        <i class="bi bi-list"></i>
+      </button>
+      <h1
+        class="text-white font-bold text-4xl lg:ml-4 hover:outline hover:outline-white"
+      >
+        Trak
+      </h1>
+
+      <ul class="flex gap-4 h-full items-center text-white">
+        <li class="">
+          <a href="" class="text-xl hover:outline hover:outline-white"
+            >Collections</a
+          >
+        </li>
+        <li class="hover:outline hover:outline-white">
+          <a href="" class="text-xl hover:border">About</a>
+        </li>
+        <li class="hover:outline hover:outline-white">
+          <a href="" class="text-xl hover:border">Settings</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="flex h-full">
+      <section class="flex justify-self-center height-without-header">
+        <aside
+          class="hidden absolute top-16 lg:relative lg:block lg:top-0 h-full w-full sm:w-3xs bg-gray-500"
+          id="side-menu"
+        ></aside>
+        <div class="flex flex-col p-4 items-center lg:items-start gap-4">
+          <h2 class="text-2xl lg:text-4xl font-medium text-white">
+            Software project ideas
+          </h2>
+          <table class="border border-white">
+            <thead class="text-white">
+              <th class="border-r border-r-gray-400 lg:text-4xl p-2">Title</th>
+              <th class="border-x border-x-gray-400 lg:text-4xl p-2">
+                Progress
+              </th>
+              <th class="border-x border-x-gray-400 lg:text-4xl p-2">
+                Difficulty
+              </th>
+              <th class="border-l border-l-gray-400 lg:text-4xl p-2">
+                Priority
+              </th>
+            </thead>
+            <tbody>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
